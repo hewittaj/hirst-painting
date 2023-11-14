@@ -22,8 +22,11 @@ def initialize_cursor():
 def random_color():
     return random.choice(colors)
 
+
 def update_cursor_position(cursor, x_pos, y_pos):
     cursor.setpos(x_pos, (y_pos + 50))
+
+
 def run():
     """
     Runs the program to generate a picture similar to Damien Hirst.
